@@ -5,7 +5,7 @@ import { useEffect, useRef, useState } from "react";
 
 const SocketExample = () => {
 
-    const [connected, setIsConnected] = useState('disconnected');
+    const [isConnected, setIsConnected] = useState('disconnected');
     const [thread, setThread] = useState([]);
     const [author, setAuthor] = useState('');
 
@@ -103,7 +103,7 @@ const SocketExample = () => {
             {/* Connetion Status */}
             <div>
                 <h2>Connection</h2>
-                <p>{connected}</p>
+                <p>{isConnected.toString()}</p>
             </div>
             
             {/* Thread / Comments */}
