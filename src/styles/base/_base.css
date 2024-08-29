@@ -1,0 +1,80 @@
+/*
+
+
+    BASE ROOT STYLES
+
+
+*/
+
+:root {
+
+   
+    line-height: 1.5;
+  
+  
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  
+
+    color: #213547;
+    background-color: #fff;
+
+    --primary-font: "Quicksand";
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+}
+
+
+  
+* {
+  box-sizing: border-box;
+}
+
+/*
+
+  BASE ROOT ELEMENT STYLES
+
+*/
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  
+  margin: 0;
+  min-width: 320px;
+  scroll-behavior: smooth;
+
+}
+
+.globale-page-wrapper {
+  
+  
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--primary-font);
+  font-weight: 700;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: left;
+}
+
+input {
+  width: 100%;
+}
+
+button {
+
+  width: 100%;
+  padding : 10px;
+}
